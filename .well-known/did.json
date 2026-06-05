@@ -1,1 +1,19 @@
-
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:web:<username>.github.io:raddis-did",
+  "verificationMethod": [
+    {
+      "id": "did:web:<username>.github.io:raddis-did#key-1",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:web:<username>.github.io:raddis-did",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----
+MCowBQYDK2VwAyEAjqB6HRtDVzPSzDjhCUWJmrgXOfdNOydzVGq0BFVllbc=
+-----END PUBLIC KEY-----"
+    }
+  ],
+  "assertionMethod": [
+    "did:web:<username>.github.io:raddis-did#key-1"
+  ]
+}
