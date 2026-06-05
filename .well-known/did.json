@@ -9,7 +9,7 @@
       "id": "did:web:AA958-A.github.io:did-web#key-1",
       "type": "Ed25519VerificationKey2020",
       "controller": "did:web:AA958-A.github.io:did-web",
-      "publicKeyMultibase": "z6Mk..."
+      "publicKeyMultibase": "z6Mkp41s8vKN1Y6gGK9jnQDwnydfFpfZYupV2P78J35eeGzS"
     }
   ],
   "assertionMethod": [
