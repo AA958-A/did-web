@@ -8,7 +8,7 @@
       "id": "did:web:AA958-A.github.io:did-web#key-1",
       "type": "Ed25519VerificationKey2020",
       "controller": "did:web:AA958-A.github.io:did-web",
-      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAjqB6HRtDVzPSzDjhCUWJmrgXOfdNOydzVGq0BFVllbc=\n-----END PUBLIC KEY-----"
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\n...\n-----END PUBLIC KEY-----"
     }
   ],
   "assertionMethod": [
