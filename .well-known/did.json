@@ -2,18 +2,16 @@
   "@context": [
     "https://www.w3.org/ns/did/v1"
   ],
-  "id": "did:web:<username>.github.io:raddis-did",
+  "id": "did:web:AA958-A.github.io:did-web",
   "verificationMethod": [
     {
-      "id": "did:web:<username>.github.io:raddis-did#key-1",
+      "id": "did:web:AA958-A.github.io:did-web#key-1",
       "type": "Ed25519VerificationKey2020",
-      "controller": "did:web:<username>.github.io:raddis-did",
-      "publicKeyPem": "-----BEGIN PUBLIC KEY-----
-MCowBQYDK2VwAyEAjqB6HRtDVzPSzDjhCUWJmrgXOfdNOydzVGq0BFVllbc=
------END PUBLIC KEY-----"
+      "controller": "did:web:AA958-A.github.io:did-web",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAjqB6HRtDVzPSzDjhCUWJmrgXOfdNOydzVGq0BFVllbc=\n-----END PUBLIC KEY-----"
     }
   ],
   "assertionMethod": [
-    "did:web:AA958-A.github.io:raddis-did#key-1"
+    "did:web:AA958-A.github.io:did-web#key-1"
   ]
 }
