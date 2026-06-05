@@ -3,23 +3,32 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/ed25519-2020/v1"
   ],
-  "id": "did:web:AA958-A.github.io:did-web",
+  "id": "did:web:aa958-a.github.io:did-web",
   "verificationMethod": [
     {
-      "id": "did:web:AA958-A.github.io:did-web#key-1",
+      "id": "did:web:aa958-a.github.io:did-web#key-1",
       "type": "Ed25519VerificationKey2020",
-      "controller": "did:web:AA958-A.github.io:did-web",
+      "controller": "did:web:aa958-a.github.io:did-web",
       "publicKeyMultibase": "z6Mkp41s8vKN1Y6gGK9jnQDwnydfFpfZYupV2P78J35eeGzS"
     }
   ],
+  "authentication": [
+    "did:web:aa958-a.github.io:did-web#key-1"
+  ],
   "assertionMethod": [
-    "did:web:AA958-A.github.io:did-web#key-1"
+    "did:web:aa958-a.github.io:did-web#key-1"
+  ],
+  "capabilityInvocation": [
+    "did:web:aa958-a.github.io:did-web#key-1"
+  ],
+  "capabilityDelegation": [
+    "did:web:aa958-a.github.io:did-web#key-1"
   ],
   "service": [
     {
-      "id": "did:web:AA958-A.github.io:did-web#website",
+      "id": "did:web:aa958-a.github.io:did-web#website",
       "type": "LinkedDomains",
-      "serviceEndpoint": "https://AA958-A.github.io"
+      "serviceEndpoint": "https://aa958-a.github.io"
     }
   ]
 }
